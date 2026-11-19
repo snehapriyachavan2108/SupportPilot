@@ -1,5 +1,5 @@
 # SupportPilot 🎫
-### AI-Powered IT Helpdesk Ticket Classification and Prioritization System
+### AI-Powered customer support platform with ticket resolution agent 
 
 SupportPilot is an AI-powered IT helpdesk system designed to automatically classify support tickets, predict their severity, and assign priority levels. It aims to simplify ticket management and help IT support teams identify and address important issues efficiently.
 
@@ -41,7 +41,7 @@ When an employee submits an IT support ticket, SupportPilot analyzes the ticket 
 
 ## ⚙️ System Workflow
 
-1. **Dataset Collection:** Collect IT support ticket data.
+1. **Dataset Collection:** Collect IT support ticket.csv data.
 2. **Data Cleaning:** Remove duplicates, handle missing values and prepare the dataset.
 3. **Model Training:** Convert ticket descriptions into numerical features using TF-IDF and train a Logistic Regression model.
 4. **Ticket Classification:** Predict the category of a newly submitted ticket.
